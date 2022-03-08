@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Small Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!--///No se si hac falta , diferencias entre descargar y usar cdn//-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+<!--    <h1 class="display-1"> First bootstrap Page <small> DSA lectures</small> </h1>  Como se hace para tener en negrita el título y no el secundario? o solo sirve para headers-->
+    <h1>First bootstrap Page <small>DSA lectures</small></h1>
+    <p>Trying to improve my bootstrap and JQuery skills</p>
+    <h2></h2>
+</div>
+
+<div class="container-sm bg-primary text-white">
+    <div class="row">
+        <form action="/action_page.php" > <!--class="was-validated"-->
+            <div class="form-group">
+                <label for="usr">Github Username:</label>
+                <input type="text" class="form-control" id="usr" name="username">
+
+<!--                <div class="valid-feedback">Valid.</div>-->
+<!--                <div class="invalid-feedback">Please fill out this field with your github username.</div> &lt;!&ndash;// Cuando estara invalido en mi caso&ndash;&gt;-->
+            </div>
+    <!--        <div class="col">-->
+    <!--            <h3>Introduce your gitehub Username below</h3>-->
+    <!--        </div>-->
+<!--            <div class="col">-->
+<!--                <h3> Don't know what to add here yet</h3>-->
+<!--            </div>-->
+        </form>
+
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+
+        <input type="button" class="btn btn-info btn-block" value="Show me the repositories"> <!-- No sé como centrarlo sin ocupar todo el anchura-->
+
+    </div>
+</div>
+</body>
+</html>
